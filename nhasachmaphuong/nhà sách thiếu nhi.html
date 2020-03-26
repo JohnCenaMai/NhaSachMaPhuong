@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        nhà sách ma phương
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="image/icon.PNG" id="iconkey">
+    <link href="./fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+
+    <a id="button"><span style="width: 100%;height: 100%;" style="width: 40px;height: 50px;" class="glyphicon glyphicon-chevron-up"></span></a>
+
+    <div id="part1" onclick="moicapnhat()">
+        <a href="#">
+            <div style="float: left;">
+                <img src="./image/icon.PNG" style="width: 30px;height: 30px;">
+            </div>
+            <!-- div  style="float: left;">
+            <img height="30px" src="./image/nhasachmaphuong.png">
+            </div> -->
+            <div style="float: left;">
+
+                <span style="margin-left: 10px;font-family: maphuong; font-size: 20px; color: green;">
+                        ABC &nbsp;  DEFG  &nbsp;  HI &nbsp;  JKLMNO
+                </span>
+            </div>
+        </a>
+    </div>
+
+    <div>
+        <nav class="navbar menu">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="color: green;"><i class="fa fa-bars"></i></a>
+                </div>
+                <ul class="nav navbar-nav" id="thanhtieude">
+                    <li>
+                        <a href="#" onclick="moicapnhat()">Mới cập nhật</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="TrinhTham()">Trinh Thám</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="CoTich()">Cổ Tích</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="KhoaHoc()">Khoa Học</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="NguNgon()">Ngụ Ngôn</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="VienTuong()">Viễn Tưởng</a>
+                    </li>
+                    <li>
+                        <a href="#thongtinnhasach">Thông Tin </a>
+                    </li>
+                    <li>
+                        <a href="#lienhe">Liên Hệ</a>
+                    </li>
+                </ul>
+                <!-- <form class="navbar-form navbar-right" action="">
+                    <div class="input-group">
+                        <input type="text"  form-control" placeholder="Tìm kiếm" name="search">
+                        <div class="input-group-btn ">
+                            <button class="btn btn-default " type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form> -->
+                <form class="navbar-form navbar-right">
+                    <input type="text" name="search" placeholder="Tìm kiếm ...">
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container truyenmoicapnhat">
+
+        <div id="gioithieutruyen">
+            <div id="truyenmoicapnha">
+                <span class="inline "><img class="icon" src="./image/starts-icon.png" ></span>
+                <span id="0" class="inline " style="font-size: 25px; color: green;"> &nbsp;Truyện mới cập nhật</span>
+            </div>
+        </div>
+
+        <div id="bodytruyenmoinhat">
+            <div class="image" style="padding: 20px;">
+                <div>
+                    <a href="#"><img src="./image/moicapnhat/1.jpg" class="img" id="img1"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t1">Bốn Anh Tài</p>
+                    <p id="tg1">Của nhà xuất bản mỹ thuật</p>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="#"><img src="./image/moicapnhat/2.jpg" class="img" id="img2"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t2">Chàng Ngốc Học Khôn</p>
+                    <p id="tg2">Của Mộc Tử Lãng</p>
+                </div>
+            </div>
+            <div class="image" style="padding: 20px;">
+                <div>
+                    <a href="#"><img src="./image/moicapnhat/3.jpg" class="img" id="img3"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t3">1001 Bí ẩn chưa có lời giải</p>
+                    <p id="tg3">Nhà xuất bản Hải Phòng</p>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="#"><img src="./image/moicapnhat/4.jpg" class="img" id="img4"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t4">Khoa học: nghịch lý</p>
+                    <p id="tg4">Nhà xuất bản Trẻ</p>
+                </div>
+            </div>
+            <div class="image" style="padding: 20px;">
+                <div>
+                    <a href="#"><img src="./image/moicapnhat/5.jpg" class="img" id="img5"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t5">Mặt trời mọc trông bóng Hoàng Hôn</p>
+                    <p id="tg5">Của Mộc Tử Lãng</p>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="#"><img src="./image/moicapnhat/6.jpg" class="img" id="img6"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t6">Quỷ Hàm Thiên Hạ</p>
+                    <p id="tg6">Của Mộc Tử Lãng</p>
+                </div>
+            </div>
+            <div class="image" style="padding: 20px;">
+                <div>
+                    <a href="#"><img src="./image/moicapnhat/7.jpg" class="img" id="img7"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t7">Cỗ máy thời gian</p>
+                    <p id="tg7">Của H.G.WELLS</p>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="#"><img src="./image/moicapnhat/8.jpg" class="img" id="img8"></a>
+                </div>
+                <div style="margin-top: 10px;" class="text-center">
+                    <a href="#" class="btn btn-info">Read</a>
+                </div>
+                <div class="ten">
+                    <p id="t8">Geogre và vụ nổ Big Bang</p>
+                    <p id="tg8">Lucy Hawking và Stephen Hawking</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="slideshow" class="container cacthongtinthem">
+        <h2 class="headerslideshow" style="color: green;"> <img class="icon" src="./image/starts-icon.png">&nbsp; Các thông tin thêm</h2>
+        <div style="margin-top:50px;" id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <!--  <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li> -->
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./image/slideshow/slide1.jpg" style="width:100%;height: 550px;">
+                    <div class="carousel-caption">
+                        <h1>Không gian rộng lớn, đa màu sắc</h1>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/slideshow/slide2.jpg" style="width:100%; height: 550px;">
+                    <div class="carousel-caption">
+                        <h1>Địa điểm đẹp</h1>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/slideshow/slide3.jpg" style="width:100%; height: 550px;">
+                    <div class="carousel-caption">
+                        <h1>Giải thưởng </h1>
+                    </div>
+                </div>
+
+                <!-- <div class="item">
+                    <img src="./image/anhnendep/500113.jpg" style="width:100%; height: 550px;">
+                    <div class="carousel-caption">
+                        <h3>Ảnh 4</h3>
+                        <p>Ảnh nền đẹp</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/anhnendep/499471.jpg" style="width:100%; height: 550px;">
+                    <div class="carousel-caption">
+                        <h3>Ảnh 5</h3>
+                        <p>Ảnh nền đẹp</p>
+                    </div>
+                </div> -->
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span style="margin-top: 250px;" class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span style="margin-top: 250px;" class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="thongtinnhasach">
+
+        <h2 style="color: rgb(255, 255, 255);" id="tieudechinh"><img class="icon" src="./image/starts-icon.png"><b> &nbsp;Thông tin về doanh nghiệp</b></h2>
+        <div style="margin-top: 50px;">
+            <div class="thongtindoanhnghiep1">
+                <p>Công ty Ma Phương, được thành lập năm 2018</p>
+                <p>Công ty có chi nhánh tại 5 tỉnh thành trên cả nước.</p>
+                <p>Hà Nội, Hưng Yên, Thái Bình, Đà Nẵng, Thành phố Hồ Chí Minh.</p>
+                <p>Miễn phí vận chuyển và giao hàng.</p>
+            </div>
+            <div class="thongtindoanhnghiep11">
+                <p>Cung cấp hàng trăm đầu sách cho các em độ tuổi thiếu niên nhi đồng</p>
+                <p>Khu vực bờ hồ Tây có không gian rộng, thoáng đãng.</p>
+                <p>Nhân viên nhiệt tình, sẵn sàng giúp đỡ.</p>
+                <p>Có các dịch vụ cafe, nước giải khát.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 220px;clear: both;">
+            <div class="thongtindoanhnghiep2">
+                <h2 class="center" style="color: rgb(255, 255, 255);"><b>Mục tiêu</b></h2>
+                <p style="margin-top: 30px;">Đưa doanh nghiệp trở thành doanh nghiệp hàng đầu Việt Nam</p>
+                <p>Nhập thêm nhiều đầu sách với nội dung phong phú.</p>
+                <p>Mở rộng thêm chi nhánh tại các tỉnh thành trên cả nước.</p>
+                <p>Đưa thêm các dịch vụ để phục vụ cho các độc giả nhí.</p>
+            </div>
+            <div class="thongtindoanhnghiep22">
+                <h2 class="center" style="color: rgb(255, 255, 255);"><b>Video quảng cáo</b></h2>
+                <video width="450" height="240" controls>
+                    <source src="./video/gioithieudoanhnghiep.mp4" type="video/mp4">
+                        <track src="./video/captions.vtt" label="Tiếng việt">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div id="dangnhap" class="row">
+        <div id="email_pass" class="col-md-6">
+            <div class="form-group">
+                <label for="usr" style="color: black;">Email:</label>
+                <input type="text" class="form-control" id="usr" style="width: 80%;" placeholder="Enter Your Email....">
+            </div>
+            <div class="form-group">
+                <label for="usr" style="color: black;">Password:</label>
+                <input type="text" class="form-control" id="pass" style="width: 80%;" placeholder="Enter Your Password....">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success" style="float: left;">Đăng nhập</button>
+                <button type="button" class="btn btn-success" style="float: left;margin-left: 20px;">Xem đối tác</button>
+            </div>
+        </div>
+
+        <div id="trietly" class="col-md-3">
+            <h2>Triết lý</h2>
+            <p style="font-style: italic;">" Sách là kho tàng chứa tất cả của cải tinh thần của loài người. "</p>
+            <p style="font-style: italic;">" Không có gì có thể thay thế văn hóa đọc. "</p>
+        </div>
+    </div>
+
+    <div id="lienhe">
+        <div id="lienhe1">
+            <div>
+                <p style="font-style: italic;">Số điện thoại: 0398851616.</p>
+            </div>
+            <div>
+                <p style="font-style: italic;">Địa chỉ Email: maithaison1998@gmail.com.</p>
+            </div>
+            <div>
+                <p style="font-style: italic;">Địa chỉ Chi nhánh Hà Nội: 445/60 Lạc Long Quân, Phường Xuân La</p>
+                <p style="font-style: italic;">Quận Tây Hồ, Thành phố Hà Nội.</p>
+            </div>
+        </div>
+        <div id="lienhe2">
+            <div style="float: left;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="googlemapimage">
+        <img src="./image/googlemap.PNG" style="width: 100%;">
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!--  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="myScripts.js"></script>
+</body>
+
+</html>

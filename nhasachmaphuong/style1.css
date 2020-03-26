@@ -1,0 +1,410 @@
+@font-face {
+    src: url(./newfont/d2.ttf);
+    font-family: mama;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#part1 {
+   
+    width: 100%;
+    background: linear-gradient(to top, #DBDBDB 0%, #F8F8F8 100%) !important;
+    overflow: auto;
+    height: 50px;
+}
+
+#part1 div {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.menu {
+    
+    background: linear-gradient(to top, #F8F8F8 0%, #DBDBDB 100%) !important;
+}
+/*search*/
+form input[type=text] {
+    height: 35px;
+    width: 1px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./image/searchicon.png');
+    background-position: 10px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 27px;
+   /*  -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; */
+    transition-duration: 2s;
+    transition-property: width ;
+    
+  }
+  
+  form input[type=text]:focus {
+    background-image: none;
+    width: 80%;
+    float: right;
+    
+  }
+
+/*___________________*/
+
+.image {
+    width: 24.5%;
+    float: left;
+}
+
+.image div:hover {
+    border: 1px solid rgb(252, 255, 224);
+}
+
+.img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.ten {
+    margin-top: 10px;
+    height: 75px;
+}
+
+.ten p {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#thanhtieude li a {
+    color: green;
+}
+
+#thanhtieude li a:hover {
+    color: black;
+}
+
+#thongtinnhasach {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: rgb(1, 141, 1, 0.3);
+    color: white;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+.thongtindoanhnghiep1 {
+    float: left;
+    width: 35%;
+    background-color: rgb(250, 21, 21, 0.5);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+.thongtindoanhnghiep1:hover {
+    background-color: rgb(255, 123, 123);
+}
+
+.thongtindoanhnghiep11 {
+    float: right;
+    width: 35%;
+    color: red;
+    background-color: rgba(218, 218, 218, 0.2);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 5%;
+    background-color: #F5F5F5;
+
+}
+
+.thongtindoanhnghiep11:hover {
+    background-color: white;
+}
+
+.thongtindoanhnghiep2 {
+    float: left;
+    width: 35%;
+    height: 330px;
+    margin-left: 5%;
+    background-color: rgba(69, 66, 255, 0.322);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.thongtindoanhnghiep2:hover {
+    background-color: rgb(31, 147, 255);
+}
+
+.thongtindoanhnghiep22 {
+    float: right;
+    width: 35%;
+    height: 330px;
+    background-color: #f4ceab;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 5%;
+}
+.thongtindoanhnghiep22:hover {
+    background-color: #ffaa56;
+}
+#dangnhap {
+    background-color: rgb(255, 231, 124);
+    border-radius: 20px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#email_pass {
+    width: 60%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px; 
+}
+
+#trietly {
+    width: 40%;
+    height: 240px;
+    float: left;
+    background-color: rgb(165, 165, 165);
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#lienhe {
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    color: white;
+    overflow: auto;
+}
+
+#lienhe1 {
+    width: 50%;
+    float: left;
+}
+
+#lienhe2 {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+}
+
+.bieutuong i:hover {
+    color: yellow;
+}
+
+#googlemapimage {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1000px) {
+    #tieudechinh {
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+        height: 200px;
+    }
+    .thongtindoanhnghiep1 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    .thongtindoanhnghiep1 p {
+        text-align: center;
+    }
+    .thongtindoanhnghiep11 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    .thongtindoanhnghiep11 p {
+        text-align: center;
+    }
+    .thongtindoanhnghiep2 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    .thongtindoanhnghiep2 p {
+        text-align: center;
+    }
+    .thongtindoanhnghiep2 h2 {
+        text-align: center;
+    }
+    .thongtindoanhnghiep22 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    .thongtindoanhnghiep22 h2 {
+        text-align: center;
+    }
+    .thongtindoanhnghiep22 video {
+        display: block;
+        margin-left: 80px;
+    }
+    #email_pass {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    #trietly {
+        clear: both;
+        width: 100%;
+        align-self: center;
+    }
+    #lienhe1 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    #lienhe2 {
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+}
+.icon {
+    margin-top: -8px;
+    width: 30px;
+}
+
+#truyenmoicapnha {
+    height: 30px;
+    padding-top: 20px;
+}
+#bodytruyenmoinhat {
+    padding-top: 20px;
+}
+#slideshow {
+   margin-top: 20px;
+}
+#headerslideshow {
+    clear: none;
+    float: left !important;
+}
+#tieudechinh {
+    margin-left: 5%;
+}
+.center {
+    text-align: center;
+}
+video {
+    width: 95%;
+    margin: auto;
+}
+
+
+
+/* go to the top*/
+#button {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 3%;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  /* .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
+  .content h1 {
+    margin-bottom: -10px;
+    color: #03a9f4;
+    line-height: 1.5;
+  }
+  .content h3 {
+    font-style: italic;
+    color: #96a2a7;
+  } */
+
+  .truyenmoicapnhat {
+      background-color: #fcffe0;
+      border: 1px solid #ccc; 
+      border-radius: 20px;
+  }
+
+  .cacthongtinthem {
+    background-color: #fcffe0;
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  i.glyphicon {
+      top: 3px !important;
+  }
+
+  .glyphicon {
+    top: 8px !important;
+}
+
+/* import font*/
+    @font-face{
+        src:url(./maphuong.otf);
+        font-family: maphuong;
+    }
+    
